@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not these folders
+!src/
+!src/**
+!utils/
+!utils/**
+
+# Always ignore these
+__pycache__/
