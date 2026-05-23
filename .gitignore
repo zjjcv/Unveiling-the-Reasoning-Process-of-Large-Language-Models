@@ -1,11 +1,24 @@
 # Ignore everything
 *
 
+# But not these files
+!README.md
+!LICENSE
+!CLAUDE.md
+!.gitignore
+
 # But not these folders
 !src/
 !src/**
 !utils/
 !utils/**
+!integrated-info-decomp/
+!integrated-info-decomp/**
+!lib/
+!lib/**
 
 # Always ignore these
 __pycache__/
+*.pyc
+*.egg-info/
+*.egg
